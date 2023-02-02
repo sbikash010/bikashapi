@@ -36,7 +36,7 @@ public class AdminServiceImp implements AdminService {
     @Override
     public String deleteById(Integer id) {
         adminRepo.deleteById(id);
-        return "admin is deleted whose Admin Id is "+id;
+        return "admin is deleted whose Admin Id is bikash "+id;
     }
     @Override
     public AdminDetails updateAdmin(Integer id) {
